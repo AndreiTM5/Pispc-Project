@@ -1,0 +1,96 @@
+/*La police de la page au complet*/
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');;
+
+html{
+    scroll-behavior: smooth;
+}
+html::-webkit-scrollbar{
+    display: none;
+}
+
+  /*Fin de l'animation*/
+body{
+    font-family: 'Teko';
+    color: rgb(240, 240, 240);
+    background-color: black;
+}
+header{
+    color: rgb(202, 202, 202);
+    top: 0;
+    width: auto;
+    height: 10vh;
+    background-color: black;
+}
+#logo{
+    position: absolute;
+    width: 10vw;
+    z-index: 10;
+    height: auto;
+}
+h1{
+    position: absolute;
+}
+nav>ul{
+    width: 60vw;
+    position:absolute;
+    top: 4vh;
+    right: 0;
+}
+/*Les bouton de navifation dans le header*/
+nav ul li a{
+      background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+      border-radius: 2vw;
+      color: #FFFFFF;
+      display: inline-block;
+      font-size: 1vw;
+      font-weight: 500;
+      line-height: 2.5;
+      text-align: center;
+      text-decoration: none;
+      width: 6vw;
+      margin: 0vw 2vw ;
+      transition-timing-function: ease;
+      transition: 400ms;
+    }
+ header>nav>ul>li>a:hover{
+    box-shadow: 0 0 1em #FF9A5A;
+    color: #FFFFFF;
+    text-decoration: none;
+    width: 8vw;
+
+}
+aside>ul{
+    color: white
+}
+
+li{
+    display: inline-block;
+}
+
+footer{
+    background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+    color: #FFFFFF;
+    font-size: 1vw;
+    text-align: center;
+    text-decoration: none;
+    width: 20vw;
+    border-radius: 10vw;
+    transition-timing-function: ease;
+    transition: 1s;
+    position: fixed;
+    bottom: 0;
+    height: 3vh;
+    margin: 0vh 40vw 0vh 40vw;
+    color: transparent;
+}
+footer>p{
+    padding-top: 1.7vw;
+}
+footer:hover{
+    margin: 0%;
+    left: 0;
+    width: 100vw;
+    border-radius: 1vw;
+    height: 10vh;
+    color: black;
+}

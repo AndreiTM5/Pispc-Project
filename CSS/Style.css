@@ -1,0 +1,179 @@
+html{
+    scroll-behavior: smooth;
+}
+h1{
+    position: absolute;
+    width: 30vw;
+    text-decoration: none;
+    text-align: center;
+    font-size: 10vw;
+}
+section #Inv{
+    position: absolute;
+    width: 15vw;
+    top: 80vh;
+    left: 42vw;
+}
+main{
+    height: 150vh;
+    width: auto;
+    background-color: black;
+}
+main img{
+    width: 15vw;
+    position: absolute;
+
+}#Inventaire{
+    position: absolute;
+    top:30vh;
+}
+/*Les voitures  */
+#Porshe911{
+    top: 85vh;
+    left: 40vw;
+    padding-top:10vh ;
+}
+#MClaren540{
+    top: 110vh;
+    left: 20vw;
+}
+#Lamborgnini{
+    width: 17vw;
+    top: 111vh;
+    left: 40vw;
+}
+#Mclaren720S{
+    top: 106vh;
+    left: 61vw;
+}
+#RR{
+    top: 130vh;
+    left: 20vw;
+}
+#Ferrari{
+    width: 17vw;
+    top: 125vh;
+    left: 39vw;
+}
+#Urus{
+    width: 20vw;
+    top: 123vh;
+    left: 59vw;
+}
+#MercedesGTR {
+    top: 145vh;
+    left: 20vw;
+}
+#Porshe918{
+    top: 144vh;
+    left: 40vw;
+}
+#RRCullinan{
+    width: 22vw;
+    top: 142vh;
+    left: 58.5vw;
+}
+/**********Pages Porshe***********/
+/*Porshe 911*/
+#PagePorshe{
+    position: absolute;
+    width: 100vw;
+    left: -50vw;
+    top: 40vh;
+}
+main #Texte911 {
+    font-size: 1.3vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    position: absolute;
+    width: 30vw;
+    height: 30vh;
+    top: 60vh;
+    left: 60vw;
+    border: 0.5em solid rgb(176, 195, 230);
+    border-radius: 2em;
+    overflow-y:auto;
+}
+main #Texte911::-webkit-scrollbar {
+    display: none;
+}
+main #Titre911{
+    text-align: center;
+    font-size: 2vw;
+}
+main #PorscheTexte1{
+    width: 30vw;
+    top: 45vh;
+}
+
+/*Porshe 918 Spyder*/
+
+#PagePorshe2{
+    position: absolute;
+    width: 60vw;
+    right: -20vw;
+    top: 140vh;
+}
+main #Texte918 {
+    font-size: 1.3vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    position: absolute;
+    width: 30vw;
+    height: 30vh;
+    top: 140vh;
+    left: 10vw;
+    border: 0.5em solid rgb(176, 195, 230);
+    border-radius: 2em;
+    overflow-y:auto;
+}
+main #Texte918::-webkit-scrollbar {
+    display: none;
+}
+main #Titre918{
+    text-align: center;
+    font-size: 2vw;
+}
+main #PorscheTexte2{
+    width: 25vw;
+    left: 3vw;
+}
+
+/*Pages des Rolls Royce*/
+#RollsMain{
+    position: absolute;
+    width: 40vw;
+    left: 0vw;
+    top: 30vh;
+}
+main #RRGhost {
+    font-size: 1.3vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    position: absolute;
+    width: 30vw;
+    height: 30vh;
+    top: 40vh;
+    left: 50vw;
+    border: 0.5em solid rgb(176, 195, 230);
+    border-radius: 2em;
+    overflow-y:auto;
+}
+main>#RRGhost::-webkit-scrollbar {
+    display: none;
+}
+main>#RollsGhost{
+    text-align: center;
+    font-size: 2vw;
+}
+main>#RollsTexte{
+    width: 25vw;
+    left: 3vw;
+}
+
